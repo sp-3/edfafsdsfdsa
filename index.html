@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>i.org.sh</title>
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-      background: black;
-      overflow: hidden;
-    }
+    <title>i.org.sh</title>
+    <style>
+        html, body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            background: black;
+            overflow: hidden;
+        }
 
-    img {
-      width: 100vw;
-      height: 100vh;
-      object-fit: cover;
-      display: block;
-    }
-  </style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            width: 100vw;
+            height: 100vh;
+            object-fit: contain;
+            user-select: none;
+            -webkit-user-drag: none;
+        }
+    </style>
 </head>
 <body>
-  <img src="/i.org.sh" alt="">
+    <img src="/i.org.sh" alt="i.org.sh">
 </body>
 </html>
